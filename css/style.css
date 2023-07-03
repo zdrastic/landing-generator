@@ -77,6 +77,7 @@ h1, h2, h3, h4 {
 
 body {
   width: 100vw;
+  height: 100%;
   min-height: 100vh;
   overflow-y: auto;
   display: flex;
@@ -95,7 +96,8 @@ body {
 }
 
 .header {
-  width: 800px;
+  width: 100%;
+  min-width: 800px;
   height: 100px;
   min-height: 100px;
   background-image: radial-gradient(circle at 19.72% 47.35%, #ffdd00 0, #ffcd00 10%, #ffbb00 20%, #ffa700 30%, #ff9115 40%, #f37b1f 50%, #e36626 60%, #d5532b 70%, #c8422f 80%, #bc3434 90%, #b22739 100%);
@@ -115,7 +117,7 @@ body {
 }
 
 .header__text {
-  width: 60%;
+  width: 40%;
   height: 60%;
   font-size: 24px;
   text-align: justify;
@@ -123,10 +125,13 @@ body {
 }
 
 .main {
-  width: 800px;
+  width: 100%;
+  min-width: 800px;
   min-height: 800px;
+  height: 1200px;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   flex: 1 0 auto;
   display: flex;
   flex-direction: column;
@@ -179,7 +184,8 @@ body {
 }
 
 .footer {
-  width: 800px;
+  width: 100%;
+  min-width: 800px;
   min-height: 100px;
   background-color: red;
   flex: 0 0 auto;
