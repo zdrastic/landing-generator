@@ -76,7 +76,6 @@ h1, h2, h3, h4 {
 }
 
 body {
-  min-width: 800px;
   width: 100vw;
   min-height: 100vh;
   overflow-y: auto;
