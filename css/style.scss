@@ -7,10 +7,10 @@ body {
 	min-width: $min_width;
 	width: 100vw;
 	min-height: 100vh;
+	overflow-y: auto;
 	display: flex;
 	flex-direction: column;
 	font-family: 'Lato', cursive;
-	
 }
 .wrapper{
 	width: 100%;
